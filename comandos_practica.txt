@@ -1,0 +1,12 @@
+# Comandos ejecutados en Ubuntu Server
+sudo apt update
+sudo apt install -y apache2
+sudo systemctl enable --now apache2
+systemctl is-active apache2
+sudo systemctl stop apache2
+
+# URL de comprobación desde Windows
+http://127.0.0.1:8080
+
+# Snapshot y restauración realizados desde VirtualBox Manager
+# Instantánea: Estado funcional - Apache
